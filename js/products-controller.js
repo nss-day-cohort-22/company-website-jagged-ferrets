@@ -25,8 +25,6 @@ for(let key in productsDB) {
             <button type="button" onclick="addToCart('${product.sku}')">Add</button>
         </article>
         `
-        
-        
     }
 }
 
