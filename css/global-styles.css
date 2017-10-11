@@ -1,0 +1,80 @@
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #97cecc;
+    height: 95px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px 60px;
+    margin: 0px 0px;
+    background-color: #97cecc;
+    color: #16594a;    
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+li:hover {
+
+    background-color: #f98f45;
+}
+
+#hobs-and-jill {
+    margin-right: auto;
+    margin-left: auto;
+    /* align-self: center; */
+}
+
+#ferret-logo {
+    position: absolute;
+    padding: 10px 10px 0px 0px;
+}
+
+.site-content {
+    flex: 1;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: justify;
+    height: 100hv;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #97cecc;
+    height: 95px;
+    align-items: center;
+    padding:    0px 15px;
+}
+
+footer p {
+    margin: 0;
+    color: #16594a;    
+    font-size: 14px;   
+}
+
+#contact {
+    text-align: left;
+}
+
+#hours {
+    text-align: center;
+}
+
+#copyright {
+    text-align: right;
+}
