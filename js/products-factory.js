@@ -46,7 +46,7 @@ const book = {
 const bed  = {
     "name": "Comfortable, stylish day-bed",
     "type": "comfort",
-    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
+    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Wright inspired ferret day bed",
     "img": "./images/km-ferret-beds-hand-carved.jpg",
     "price": "$12,000.00",
     "userStory": "I wish I was a ferret",
