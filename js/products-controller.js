@@ -22,7 +22,7 @@ for(let key in productsDB) {
             <p>${product.description}</p>
             <p>${product.img}</p>
             <p>${product.price}</p>
-            <p>${product.userStory}</p>
+            <p>${product.userStory} - ${product.author}</p>
             <button type="button" id="${product.sku}">Add</button>
             </article>
             `

@@ -11,12 +11,13 @@ const product = {
 */
 
 const leash = {
-    "name": "Adorable, justable Ferret Leash",
+    "name": "Adorable, ajustable Ferret Leash",
     "type": "training",
     "description": "Keep your Mustela putorius furo as near or far as you'd like",
     "img": "img:adjustable leash image",
     "price": "$25.00",
     "userStory": "My dear Evoline loves to scamper about. With this little gem I can quickly and easily return her to my arms.",
+    "author": author1,
     "sku": "0001"
 }
 
@@ -27,6 +28,7 @@ const bowlerHat = {
     "img": "img:smart bowler hat",
     "price": "$125.00",
     "userStory": "When my Charlie saw this online he wouldn't stop biting my feet until he had it. There were several days of pain involved, but totally worth it.",
+    "author": author2,
     "sku": "0002" 
 }
 
@@ -37,6 +39,7 @@ const book = {
     "img": "img: book",
     "price": "32.00",
     "userStory": "Life Changing",
+    "author": author1,
     "sku": "0003"
 }
 
@@ -47,6 +50,7 @@ const bed  = {
     "img": "img: day bed",
     "price": "1200.00",
     "userStory": "I wish I was a ferret",
+    "author": author1,
     "sku": "0004"
 }
 
@@ -57,6 +61,7 @@ const tubes = {
     "img": "img: tubes",
     "price": "3600.00",
     "userStory": "I wish I was a ferret",
+    "author": author1,
     "sku": "0005"
 }
 
@@ -80,7 +85,6 @@ const Products = {
 localStorage.setItem("products", JSON.stringify(Products));
 
 function addToCart(sku) {
-    console.log("alert");
     ShoppingCart.items.push({"sku":sku, "qty":1});
     localStorage.setItem("shoppingcart", JSON.stringify(ShoppingCart)); 
 }
