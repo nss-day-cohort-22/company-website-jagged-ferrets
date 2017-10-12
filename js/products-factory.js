@@ -89,7 +89,19 @@ localStorage.setItem("products", JSON.stringify(Products));
 function addToCart(sku) {
     ShoppingCart.items.push({"sku":sku, "qty":1});
     localStorage.setItem("shoppingcart", JSON.stringify(ShoppingCart)); 
+    checkShoppingCart(sku);
 }
 
+function checkShoppingCart(sku) {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+    
+    x.innerHTML = "You purchased..." + sku
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
 
 

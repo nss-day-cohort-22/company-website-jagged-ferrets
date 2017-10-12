@@ -55,4 +55,11 @@ function addEventListener(sku){
         addToCart(sku);
     },false)();
 }
-    
+
+
+function getItemFromSKU(sku) {
+    for(let key in productsDB){
+        
+    }
+
+}
