@@ -1,20 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Corben');
+/* @import url('https://fonts.googleapis.com/css?family=Corben'); */
 
 body {
     background-color: #f98f45;
 }
 
 .site-content {
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .card {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     width: 80%;
-    margin: auto;
-    padding: 10px;
     margin-bottom: 30px;
     background-color: white;
     border-radius: 5px;
@@ -22,8 +19,6 @@ body {
     border: solid 1px #EBEBEB;
     transition-property: margin;
     transition: .5s;
-    font-family: 'Corben', sans-serif;
-    line-height: 1;
 }
 .card:hover {
     box-shadow: 5px 5px 7px rgba(25,25,25,.50);
@@ -42,7 +37,7 @@ img.right {
     border: solid 5px #D22805;
     margin: 0 25px;
     object-fit: cover;
-    padding: center;
+    align-self: center;
 }
 
 img.left {
@@ -60,10 +55,40 @@ img.right {
     flex-direction: column;
 }
 
-p.left {
-    text-justify: left;
+.blog_titleleft {
+    padding-left: 20px;
+    border-left: solid 1px lightgray;
+    
 }
 
-p.right {
-    text-justify: right;
+.blog_titleright {
+    padding-right: 20px;
+    border-right: solid 1px lightgray;
+
+}
+
+.titleleft {
+    text-align: left;
+}
+
+.titleright {
+    text-align: right;
+}
+
+.title {
+    display: block;
+    padding-bottom: 20px;
+    border-bottom: solid 1px lightgray;
+}
+
+.author {
+    font-size: .85em;
+}
+
+.authorleft {
+    text-align: right;
+}
+
+.authorright {
+    text-align: left;
 }
