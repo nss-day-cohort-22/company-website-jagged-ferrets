@@ -15,6 +15,7 @@ for(let key in productsDB) {
     
     for (let i = 0; i < currentKey.length; i++) {
         let product = currentKey[i];
+        
         productsDOM.innerHTML += `
         <article class="products" id="${product.sku}">
             <p>${product.name}</p>
@@ -22,10 +23,28 @@ for(let key in productsDB) {
             <p>${product.img}</p>
             <p>${product.price}</p>
             <p>${product.userStory}</p>
-            <button type="button" onclick="addToCart('${product.sku}')">Add</button>
-        </article>
-        `
+            <button type="button" id="${product.sku}">Add</button>
+            </article>
+            `
+            let sku = product.sku;
+            document.getElementById(sku).addEventListener("click", function(){addToCart(sku);}, false);
+            // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
+    }
+    
+    for (let i = 0; i < currentKey.length; i++) {
+        let product = currentKey[i];
+
+            let sku = product.sku;
+            document.getElementById(sku).addEventListener("click", function(){addToCart(sku);}, false);
+            // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
     }
 }
 
-// Add something to the shopping cart
+function addEventListener(sku){
+    // Add something to the shopping cart
+    let buttonCart = document.getElementById(sku);
+    buttonCart.addEventListener('click',function(){
+        addToCart(sku);
+    },false)();
+}
+    

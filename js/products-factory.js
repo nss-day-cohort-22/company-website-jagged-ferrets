@@ -1,4 +1,5 @@
 // objects to store products
+/* 
 const product = {
     "name": "test",
     "description": "test_desc",
@@ -6,7 +7,8 @@ const product = {
     "price": "price_test",
     "userStory": "user_story_test",
     "sku": "sku_test"
-}
+} 
+*/
 
 const leash = {
     "name": "Adjustable Ferret Leash",
@@ -27,32 +29,40 @@ const bowlerHat = {
 }
 
 const book = {
-    "name": "test",
-    "description": "test_desc",
-    "img": "img_test",
-    "price": "price_test",
-    "userStory": "user_story_test",
-    "sku": "sku_test"
+    "name": "From Ferret Wild to Ferret Child",
+    "description": "From acclaimed ferret wrangler, Christine D'Chentour.  This book will help you rediscover your own childlike nature.  Become the catalyst that elevates your companion's emotional well-being and intellectual reasoning to new heights.",
+    "img": "img: book",
+    "price": "32.00",
+    "userStory": "Life Changing",
+    "sku": "0003"
 }
 
-const slippers  = {
-
+const bed  = {
+    "name": "Comfortable, stylish day-bed",
+    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
+    "img": "img: day bed",
+    "price": "1200.00",
+    "userStory": "I wish I was a ferret",
+    "sku": "0004"
 }
 
-// ferret food
-// ferret bed
-// training books
-// ferret blanket
-// ferret tubes
+const tubes = {
+    "name": "Based on Bay Area artist Tom Franco's recent exhibition. These tubes will challenge both your ferret's reflexes and sensibilities",
+    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
+    "img": "img: tubes",
+    "price": "3600.00",
+    "userStory": "I wish I was a ferret",
+    "sku": "0005"
+}
 
-
+// holding the shopping cart in the session storage
 sessionStorage.clear();
 
 const ShoppingCart = {
     "items": []
 }
 
-const products = [leash, bowlerHat];
+const products = [leash, bowlerHat, book, bed, tubes];
 
 const Products = {
     "products": products
