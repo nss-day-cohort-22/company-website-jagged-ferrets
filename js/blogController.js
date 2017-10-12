@@ -12,6 +12,8 @@ for (let index = 0; index < blogDatabaseController.length; index++) {
 
     if (index % 2 === 0) {imgPosition = "left"}
     
+
+    
     blogPreviewPopulated.innerHTML += `
     <div class="card">
         <img class="${imgPosition}" src="${object.image}">
