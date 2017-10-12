@@ -17,7 +17,7 @@ for(let key in productsDB) {
         let product = currentKey[i];
         
         productsDOM.innerHTML += `
-        <article class="products" id="${product.sku}">
+        <article class="card" id="${product.sku}">
             <p>${product.name}</p>
             <p>${product.description}</p>
             <p>${product.img}</p>
