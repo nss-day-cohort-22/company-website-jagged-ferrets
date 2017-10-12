@@ -1,20 +1,21 @@
-
 body {
+    margin: 0;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Bellefair', serif;
 }
 
 header {
     display: flex;
     justify-content: flex-end;
     background-color: #97cecc;
-    height: 95px;
+    /* height: 95px; */
 }
 
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
     padding: 0px 60px;
     margin: 0px 0px;
@@ -23,7 +24,10 @@ ul {
 }
 
 li {
-    display: inline-block;
+    font-family: ;
+    font-size: 1.2em;
+    text-align: center;
+    flex:1;
     padding: 10px 20px;
 }
 
@@ -33,14 +37,23 @@ li:hover {
 }
 
 #hobs-and-jill {
-    margin-right: auto;
-    margin-left: auto;
-    /* align-self: center; */
+    width: 300px;
+    margin: auto;
+    padding: 30px 0;
 }
 
+
 #ferret-logo {
+    width: 90px;
     position: absolute;
-    padding: 10px 10px 0px 0px;
+    left: 20px;
+    top: 20px;
+}
+
+#jill-logo {
+    width: 90px;
+    position: absolute;
+    padding: 20px 20px 0px 0px;
 }
 
 .site-content {
@@ -64,7 +77,11 @@ footer {
 footer p {
     margin: 0;
     color: #16594a;    
-    font-size: 14px;   
+    font-size: .8em;   
+}
+
+footer div {
+    width: 33%;
 }
 
 #contact {
@@ -77,4 +94,8 @@ footer p {
 
 #copyright {
     text-align: right;
+}
+
+.bold {
+    font-size:1.2em;
 }
