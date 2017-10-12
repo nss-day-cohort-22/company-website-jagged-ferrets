@@ -1,0 +1,165 @@
+
+body {
+    background-color: #FF8622;
+}
+
+.welcome {
+    display: flex;
+    border: 1px solid #16594a;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.welcome a {
+    padding: 35px 250px 0px 250px;
+}
+
+.home-page-blocks {
+    padding: 7px;
+}
+
+a.site-block-text {
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%);
+}
+
+.home-page-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.home-page-blocks div {
+    width: 48%;
+    border: 1px solid #16594a;
+    text-align: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-page-links a {    
+text-decoration: none;
+color: #97cecc;
+}
+
+  /* Transition Image for "Welcome" block */
+
+  .site-blocks-Welcome {
+    position: relative;
+    width: 2em; min-height: 10em;
+    background: rgba(0,0,0,0) url(https://www.nature.org/cs/groups/webcontent/@web/@colorado/documents/media/black-footed-ferrets-720x400.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+  }
+  
+.site-blocks-Welcome:hover {
+    background-color: rgba(0,0,0,.5);
+  }
+  
+.site-blocks-Welcome:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+/* Transition Image for "Adopt" block */
+
+.site-blocks-Adopt {
+    position: relative;
+    width: 2em; min-height: 10em;
+    background: rgba(0,0,0,0) url(https://frtim.files.wordpress.com/2011/11/ferret.jpg);
+    background-size: 100%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+  }
+  
+.site-blocks-Adopt:hover {
+    background-color: rgba(0,0,0,.5);
+  }
+  
+.site-blocks-Adopt:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+  /* Transition Image for "Merchandise" block */
+
+.site-blocks-Merchandise {
+    position: relative;
+    width: 2em; min-height: 10em;
+    background: rgba(0,0,0,0) url(http://farm4.static.flickr.com/3011/2663340962_b7e6e9bb51.jpg);
+    background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+  }
+  
+.site-blocks-Merchandise:hover {
+    background-color: rgba(0,0,0,.5);
+  }
+  
+.site-blocks-Merchandise:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+  /* Transition Image for "Blog" block */
+
+.site-blocks-Blog {
+    position: relative;
+    width: 2em; min-height: 10em;
+    background: rgba(0,0,0,0) url(http://blogpaws.com/wp-content/uploads/2014/06/shutterstock_76058476-1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+  }
+  
+.site-blocks-Blog:hover {
+    background-color: rgba(0,0,0,.5);
+  }
+  
+.site-blocks-Blog:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+  /* Transition Image for "Volunteer/Donate" block */
+
+.site-blocks-Volunteer {
+    position: relative;
+    width: 2em; min-height: 10em;
+    background: rgba(0,0,0,0) url(http://78.media.tumblr.com/a1518906ed62b37528d490e6dd405cfd/tumblr_od2vd8NyEx1ut6uujo1_1280.jpg);
+    background-size: 100%;
+    background-position: center center top;
+    background-repeat: no-repeat;
+    transition: background-color 1s;
+  }
+  
+.site-blocks-Volunteer:hover {
+    background-color: rgba(0,0,0,.5);
+  }
+  
+.site-blocks-Volunteer:before {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: inherit;
+    content: ' ';
+  }
+
+
+  /*  */
