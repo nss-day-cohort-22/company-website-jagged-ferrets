@@ -30,13 +30,13 @@ for(let key in productsDB) {
             document.getElementById(sku).addEventListener("click", function(){addToCart(sku);}, false);
             // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
     }
-    
+
     for (let i = 0; i < currentKey.length; i++) {
         let product = currentKey[i];
 
             let sku = product.sku;
             document.getElementById(sku).addEventListener("click", function(){addToCart(sku);}, false);
-            // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
+            
     }
 }
 

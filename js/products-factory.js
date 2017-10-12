@@ -55,8 +55,8 @@ const tubes = {
     "sku": "0005"
 }
 
-// holding the shopping cart in the session storage
-sessionStorage.clear();
+// holding the shopping cart in the local storage
+localStorage.removeItem("shoppingcart");
 
 const ShoppingCart = {
     "items": []
@@ -73,7 +73,7 @@ localStorage.setItem("products", JSON.stringify(Products));
 function addToCart(sku) {
     console.log("alert");
     ShoppingCart.items.push({"sku":sku, "qty":1});
-    sessionStorage.setItem("shoppingcart", JSON.stringify(ShoppingCart)); 
+    localStorage.setItem("shoppingcart", JSON.stringify(ShoppingCart)); 
 }
 
 
