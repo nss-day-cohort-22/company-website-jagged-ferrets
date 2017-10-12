@@ -4,14 +4,15 @@ body {
     background-color: #f98f45;
 }
 
-.site-content {
-    /* padding: 40px; */
+#blogPreviews {
+    margin: 20px auto;
+    width: 80%;
 }
 
 .card {
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    justify-content: space-around;
+    /* width: 80%; */
     margin-bottom: 30px;
     background-color: white;
     border-radius: 5px;
@@ -19,6 +20,8 @@ body {
     border: solid 1px #EBEBEB;
     transition-property: margin;
     transition: .5s;
+    margin-left: 0;
+    margin-right: 0;
 }
 .card:hover {
     box-shadow: 5px 5px 7px rgba(25,25,25,.50);
@@ -35,7 +38,7 @@ img.right {
     width: 150px;
     border-radius: 50%;
     border: solid 5px #D22805;
-    margin: 0 25px;
+    margin: 0 10px;
     object-fit: cover;
     align-self: center;
 }
@@ -49,7 +52,7 @@ img.right {
 }
 
 .blog_title {
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin: 10px;
     display: flex;
     flex-direction: column;
