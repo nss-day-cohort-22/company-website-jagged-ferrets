@@ -59,7 +59,18 @@ function addEventListener(sku){
 
 function getItemFromSKU(sku) {
     for(let key in productsDB){
-        
-    }
+        const currentProducts = productsDB[key];
 
+        try {
+        for (var i = 0; i < currentProducts.length; i++) {
+            var product = currentProducts[i];
+            
+            if (product.sku === sku) {
+                return product;
+            }
+        }
+    } catch (e) {
+        console.log(e.description);
+    }
+    }
 }
