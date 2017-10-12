@@ -26,11 +26,13 @@ for(let key in productsDB) {
             <button type="button" id="${product.sku}">Add</button>
             </article>
             `
-            let sku = product.sku;
-            document.getElementById(sku).addEventListener("click", function(){addToCart(sku);}, false);
             // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
     }
+}
 
+for(let key in productsDB) {
+    let currentKey= productsDB[key];
+        
     for (let i = 0; i < currentKey.length; i++) {
         let product = currentKey[i];
 
