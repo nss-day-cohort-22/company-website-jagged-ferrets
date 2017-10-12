@@ -46,7 +46,7 @@ const book = {
 const bed  = {
     "name": "Comfortable, stylish day-bed",
     "type": "comfort",
-    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
+    "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Wright inspired ferret day bed",
     "img": "./images/km-ferret-beds-hand-carved.jpg",
     "price": "$12,000.00",
     "userStory": "I wish I was a ferret",
@@ -89,7 +89,19 @@ localStorage.setItem("products", JSON.stringify(Products));
 function addToCart(sku) {
     ShoppingCart.items.push({"sku":sku, "qty":1});
     localStorage.setItem("shoppingcart", JSON.stringify(ShoppingCart)); 
+    checkShoppingCart(sku);
 }
 
+function checkShoppingCart(sku) {
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+    
+    let product = getItemFromSKU(sku);    // Add the "show" class to DIV
+    x.className = "show";
+    x.innerHTML = `Thank you for your purchase of: ${product.name}` 
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
 
 
