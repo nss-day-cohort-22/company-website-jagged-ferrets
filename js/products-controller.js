@@ -17,13 +17,19 @@ for(let key in productsDB) {
         let product = currentKey[i];
         
         productsDOM.innerHTML += `
-        <article class="card" id="${product.sku}">
-            <p cl>${product.name}</p>
-            <p>${product.description}</p>
-            <p><img src="${product.img}"></p>
-            <p>${product.price}</p>
-            <p>"${product.userStory}" - ${product.author}</p>
-            <button type="button" id="${product.sku}">Add</button>
+        <article class="card product-main" id="${product.sku}">
+           <div class="product-container-img">
+            <img src="${product.img}" class="product-img">
+           </div>
+           <div class="product-container-info">
+            <p class="product-name">${product.name.toUpperCase()}</p>
+            <p class="product-description">${product.description}</p>
+            <div class="product-commerce">
+                <p class="product-price">${product.price}</p>
+                <button type="button" class="product-cart-add-button" id="${product.sku}">Add</button>
+            </div>
+            <p class="product-story">"${product.userStory}" - ${product.author}</p>
+            </div>
             </article>
             `
             // <button type="button" onclick="addToCart('${product.sku}')">Add</button>
