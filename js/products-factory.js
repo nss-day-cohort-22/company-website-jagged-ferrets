@@ -11,7 +11,8 @@ const product = {
 */
 
 const leash = {
-    "name": "Adjustable Ferret Leash",
+    "name": "Adorable, justable Ferret Leash",
+    "type": "training",
     "description": "Keep your Mustela putorius furo as near or far as you'd like",
     "img": "img:adjustable leash image",
     "price": "$25.00",
@@ -21,6 +22,7 @@ const leash = {
 
 const bowlerHat = {
     "name": "Smart bowler hat",
+    "type": "comfort",    
     "description": "Based on Edward Coke's, younger brother of the 2nd Earl of Leicester, original design, this clever cranial accoutremont is the definition of the classical feret gentleman",
     "img": "img:smart bowler hat",
     "price": "$125.00",
@@ -30,6 +32,7 @@ const bowlerHat = {
 
 const book = {
     "name": "From Ferret Wild to Ferret Child",
+    "type": "training",
     "description": "From acclaimed ferret wrangler, Christine D'Chentour.  This book will help you rediscover your own childlike nature.  Become the catalyst that elevates your companion's emotional well-being and intellectual reasoning to new heights.",
     "img": "img: book",
     "price": "32.00",
@@ -39,6 +42,7 @@ const book = {
 
 const bed  = {
     "name": "Comfortable, stylish day-bed",
+    "type": "comfort",
     "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
     "img": "img: day bed",
     "price": "1200.00",
@@ -47,7 +51,8 @@ const bed  = {
 }
 
 const tubes = {
-    "name": "Based on Bay Area artist Tom Franco's recent exhibition. These tubes will challenge both your ferret's reflexes and sensibilities",
+    "name": "Based on Bay Area artist Tom Franco's recent exhibition. These tubes will challenge your ferret's reflexes and artistic sensibilities",
+    "type": "exercise",
     "description": "Nap with an art-deco touch. Your burrowing companion will find a lot to love within this Frank Lloyd Write inspired ferret day bed",
     "img": "img: tubes",
     "price": "3600.00",
@@ -62,10 +67,14 @@ const ShoppingCart = {
     "items": []
 }
 
-const products = [leash, bowlerHat, book, bed, tubes];
+const training = [leash, tubes];
+const comfort = [bowlerHat, bed];
+const exercise = [tubes];
 
 const Products = {
-    "products": products
+    "training": training,
+    "comfort": comfort,
+    "exercise": exercise
 }
 
 localStorage.setItem("products", JSON.stringify(Products));
