@@ -1,0 +1,79 @@
+body {
+    background-color: #ff8622
+}
+
+.adopt-main {
+    display: flex;
+    
+
+
+}
+
+.heading {
+    font-size: 80px;
+    text-align: center;
+
+}
+
+section.adopt-main {
+    
+    clear: left;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(25,25,25,.50);
+    border: solid 1px #EBEBEB; 
+    
+}
+
+.ferretImg {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f98f45;
+    position: center;
+}
+
+div.bioContainer {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.age {
+    font-size: 18px;
+}
+
+.sex {
+    font-size: 18px;
+}
+
+.likes {
+    font-size: 18px;
+}
+
+.dislikes {
+    font-size: 18px;
+}
+
+
+.button {
+   font-size: 20px;
+   background-color: #97cecc;
+   box-shadow: 2px 2px 2px rgba(25,25,25,.50);
+   border-radius: 5px;
+  margin-top: 18px;
+
+}
+.button:hover {
+    background-color: #f98f45;
+}
+
+
+
