@@ -18,8 +18,10 @@ for (let index = 0; index < blogDatabaseController.length; index++) {
     <div class="card">
         <img class="${imgPosition}" src="${object.image}">
         <div class="blog_title">
-            <p>${object.title}</p>
+            <p class="title ${imgPosition}">${object.title}</p>
+            <p class="author">By ${object.author}</p>
         </div>
+
     </div>
     `
         

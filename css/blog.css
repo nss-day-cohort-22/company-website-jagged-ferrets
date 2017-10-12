@@ -34,24 +34,36 @@ body {
 
 
 
-.left,
-.right {
-    height: 120px;
-    width: 120px;
+img.left,
+img.right {
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
+    border: solid 5px #D22805;
+    margin: 0 25px;
     object-fit: cover;
-    border: solid 5px #f98f45;
+    padding: center;
 }
 
-.left {
+img.left {
     order: -1;
 }
 
-.right {
+img.right {
     order: 2;
 }
 
 .blog_title {
     font-size: 1.5em;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p.left {
+    text-justify: left;
+}
+
+p.right {
+    text-justify: right;
 }
