@@ -1,36 +1,42 @@
 
 body {
-    background-color: #FF8622;
+    background-color: #F98F45;
 }
 
 .welcome {
     display: flex;
     border: 1px solid #16594a;
+    background: linear-gradient(rgba(97, 98 ,116 , .5), rgba(97, 98 ,116 , .5)), url(http://st.gde-fon.com/wallpapers_original/327330_bezmyatezhnost_nebo_oblaka_luchi_svet_pole_xolmy_d_1920x1280_www.Gde-Fon.com.jpg);
+    background-position: center;
     border-radius: 5px;
     text-align: center;
     justify-content: space-around;
     height: 100px;
     margin-top: 10px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, .2);
 }
 
 .welcome a {
     padding: 35px 250px 0px 250px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
 }
 
 .home-page-blocks {
     padding: 7px;
-}
-
-a.site-block-text {
-    position: relative;
-    top: 20%;
-    transform: translateY(-50%);
-}
-
-.home-page-blocks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.home-page-blocks a {
+  text-decoration: none;
+  color: whitesmoke;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+  font-size: 30px;
 }
 
 .home-page-blocks div {
@@ -39,35 +45,9 @@ a.site-block-text {
     text-align: center;
     height: 100px;
     margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, .2);    
 }
-
-.main-page-links a {    
-text-decoration: none;
-color: #97cecc;
-}
-
-  /* Transition Image for "Welcome" block */
-
-  .site-blocks-Welcome {
-    position: relative;
-    width: 2em; min-height: 10em;
-    background: rgba(0,0,0,0) url(https://www.nature.org/cs/groups/webcontent/@web/@colorado/documents/media/black-footed-ferrets-720x400.jpg);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-color 1s;
-  }
-  
-.site-blocks-Welcome:hover {
-    background-color: rgba(0,0,0,.5);
-  }
-  
-.site-blocks-Welcome:before {
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    background-color: inherit;
-    content: ' ';
-  }
 
 /* Transition Image for "Adopt" block */
 
@@ -160,6 +140,3 @@ color: #97cecc;
     background-color: inherit;
     content: ' ';
   }
-
-
-  /*  */
