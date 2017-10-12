@@ -18,11 +18,11 @@ for(let key in productsDB) {
         
         productsDOM.innerHTML += `
         <article class="card" id="${product.sku}">
-            <p>${product.name}</p>
+            <p cl>${product.name}</p>
             <p>${product.description}</p>
             <p><img src="${product.img}"></p>
             <p>${product.price}</p>
-            <p>${product.userStory} - ${product.author}</p>
+            <p>"${product.userStory}" - ${product.author}</p>
             <button type="button" id="${product.sku}">Add</button>
             </article>
             `
