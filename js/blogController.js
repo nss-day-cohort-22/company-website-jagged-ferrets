@@ -1,6 +1,6 @@
 let blogDatabaseController = JSON.parse(blogDatabaseString)
 
-console.log(blogDatabaseController)
+// console.log(blogDatabaseController)
 
 let blogPreviewPopulated = document.getElementById("blogPreviews")
 
