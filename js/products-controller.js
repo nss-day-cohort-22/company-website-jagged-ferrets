@@ -20,7 +20,7 @@ for(let key in productsDB) {
         <article class="card" id="${product.sku}">
             <p>${product.name}</p>
             <p>${product.description}</p>
-            <p>${product.img}</p>
+            <p><img src="${product.img}"></p>
             <p>${product.price}</p>
             <p>${product.userStory} - ${product.author}</p>
             <button type="button" id="${product.sku}">Add</button>

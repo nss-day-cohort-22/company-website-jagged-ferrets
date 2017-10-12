@@ -14,7 +14,7 @@ const leash = {
     "name": "Adorable, ajustable Ferret Leash",
     "type": "training",
     "description": "Keep your Mustela putorius furo as near or far as you'd like",
-    "img": "img:adjustable leash image",
+    "img": "https://s7d5.scene7.com/is/image/PetsUnited/T650691?wid=250&hei=282",
     "price": "$25.00",
     "userStory": "My dear Evoline loves to scamper about. With this little gem I can quickly and easily return her to my arms.",
     "author": author1,
