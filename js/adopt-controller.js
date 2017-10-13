@@ -27,14 +27,14 @@ ferretElement.innerHTML += `
 </section>
 `
 }     
-
 function clicker() {
-    alert("Thanks for adopting this major responsibility into your life!");
+    // Get the snackbar DIV
+    var x = document.getElementById("snackbar")
+
+    // Add the "show" class to DIV
+    x.className = "show";
+
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
 }
 
-
-
-
-/* <img src="img"> */
-/* <div class="ferretContainer"> */
-/* <div class="button">${currentFerret.button}</div> */
