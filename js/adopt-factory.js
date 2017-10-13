@@ -6,7 +6,7 @@ let ferretInventory = [
         "likes": "Likes: Cheese, alone time, Sports Center, Just-enough-pets.",
         "dislikes": "Dislikes: Christmas songs played before Thanksgiving.",
         "img": "<img src='./images/phil.jpg'class='ferretImg'>", //image
-        "button": "<a href='#' target='blank_'>Adopt This Ferret Now</a>" //dummy link
+        
     }
     ,
     {
@@ -16,7 +16,7 @@ let ferretInventory = [
         "likes": "Likes: Girls Night, musicals, gardening, her weekly blow-out.",
         "dislikes": "Dislikes: Fowl language.",
         "img": "<img src='./images/susanne.jpg'class='ferretImg'>", //image
-        "button": "<a href='#' target='blank_'>Adopt This Ferret Now</a>" //dummy link
+        
     }
     ,
     {
@@ -26,7 +26,7 @@ let ferretInventory = [
         "likes": "Likes: Play time, secrets, candy, running around really fast.",
         "dislikes": "Dislikes: The existential fear that nothing really matters.",
         "img": "<img src='./images/mike.jpg'class='ferretImg'>", //image
-        "button": "<a href='#' target='blank_'>Adopt This Ferret Now</a>" //dummy link
+        
     }
     ,
     {
@@ -36,7 +36,7 @@ let ferretInventory = [
         "likes": "Likes: Napping, squeaky toys, treats, being featured on social media.",
         "dislikes": "Dislikes: Improv Comedy.",
         "img": "<img src='./images/tiffany.jpg' class='ferretImg'>", //image
-        "button": "<a href='#' target='blank_'>Adopt This Ferret Now</a>" //dummy link
+        
     }
     ,
     {
@@ -46,7 +46,7 @@ let ferretInventory = [
         "likes": "Likes: Plotting, most forms of attack, coercion, escape.",
         "dislikes": "Dislikes: Everything.",
         "img": "<img src='./images/angryfaceEDIT.jpeg'class='ferretImg'>", //image
-        // "button": "<a href='#' target='blank_'>Adopt This Ferret Now</a>" //dummy link
+        
 
     }
 ]
