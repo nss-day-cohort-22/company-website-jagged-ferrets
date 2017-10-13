@@ -15,11 +15,11 @@ for (let index = 0; index < blogDatabaseController.length; index++) {
 
     
     blogPreviewPopulated.innerHTML += `
-    <div class="card">
+    <div class="card" onclick="location.href='blog_fullView.html#${index}'">
         <img class="${imgPosition}" src="${object.image}">
         <div class="blog_title blog_title${imgPosition}">
             <p class="title title${imgPosition}"><em>${object.title}</em></p>
-            <p class="author author${imgPosition}">By ${object.author}</p>
+            <p class="author author${imgPosition}">By ${object.author} - <span class="smallText">Click to read more</span></p>
         </div>
 
     </div>
