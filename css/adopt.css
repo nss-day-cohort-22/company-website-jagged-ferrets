@@ -40,6 +40,9 @@ section.adopt-main {
 div.bioContainer {
     padding-top: 40px;
     padding-left: 40px;
+    border-left: 1px solid lightgray;
+    margin-left: 20px;
+
 }
 
 .name {
