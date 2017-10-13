@@ -1,0 +1,94 @@
+body { 
+    background-color:#ff8622;
+}
+
+.container {
+    display: inline-flex;
+    justify-content:center;
+
+}
+.donate {
+    padding-top: 40px;
+    padding-left: 75px;
+
+}
+
+.required {
+    color:red;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 35px;
+
+}
+
+.anotherheading {
+    font-size: 20px;
+
+}
+/* Images */
+.cash {
+    width: 400px;
+    height: 220px;
+
+}
+
+
+/* Designing the drop down application questions */
+.styleFirstName{
+    width:200px;
+    font-weight: bold;
+}
+
+.styleLastName{
+    width:200px;
+    font-weight: bold;
+}
+
+
+.styleEmail{
+    width:200px;
+    font-weight: bold;
+}
+
+
+.stylePhoneNumber{
+    width:200px;
+    font-weight: bold;
+}
+
+
+.styleCity{
+    width:200px;
+    font-weight: bold;
+}
+
+.styleAddress{
+    width:200px;
+    font-weight: bold;
+
+}
+
+.styleZip{
+    width:200px;
+    font-weight: bold;
+
+}
+.formInput{
+    width: 120px;
+    height: 24px;
+}
+
+.submitButton {
+    width: 80px;
+    height:40px;
+    
+
+}
+
+.styleState{
+    width: 120px;
+    height:140px;
+
+}
