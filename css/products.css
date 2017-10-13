@@ -29,7 +29,7 @@ p {
 }
 
 .product-container-info {
-	border-left: 1px solid black;
+	border-left: 1px solid lightgray;
 	padding-left: 20px;
 }
 
@@ -37,7 +37,7 @@ p {
 	margin: 0;
 	padding: 0;
 	font-size: 1.5em;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid lightgray;
 }
 
 .product-description {
