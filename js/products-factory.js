@@ -13,7 +13,7 @@ const product = {
 const scarf = {
     "name": "Adorable, Hand-Knitted Icelandic Scarf",
     "type": "clothing",
-    "description": "Keep your Mustela putorius furo warm as she makes your heart",
+    "description": "Keep your mustela putorius furo as warm as she makes your heart",
     "img": "./images/km-ferret-scarf.jpg",
     "price": "$225.00",
     "userStory": "My dear Evaline loves to scamper about in the snow. With this beautiful scarf she stays as warm as when she's in my arms.",
